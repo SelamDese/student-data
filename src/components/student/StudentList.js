@@ -7,7 +7,6 @@ export default class StudentList extends Component {
         {this.props.students.map(student => (
           <div key={student.id}>
                <p> {student.firstName} {student.lastName}</p>
-               {/* <p> {student.lastName}</p> */}
           </div>
         ))}
       </section>

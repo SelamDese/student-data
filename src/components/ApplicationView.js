@@ -20,7 +20,7 @@ export default class ApplicationViews extends Component {
           <React.Fragment>
             <Route exact path="/students"
               render={props => {
-                return (<StudentList deleteLocation={this.deleteLocation} students={this.state.students} />);
+                return (<StudentList students={this.state.students} />);
               }}
             />
           </React.Fragment>
